@@ -1,0 +1,15 @@
+.custom-button {
+  background-color: #a30110;
+  color: #FFFFFF;
+  --mdb-btn-border-color: #a30110;
+  text-align: center;
+}
+
+.icon-calendar {
+  margin-right: 5px;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9) !important; /* Fondo blanco con transparencia al 90% */
+  transition: background-color 0.3s ease;
+}

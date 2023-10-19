@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "RosaVenturesLLC.Client": {
+    "RosasVenturesLLC.Client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/rosa-ventures-llc.client",
+            "outputPath": "dist/rosas-ventures-llc.client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "RosaVenturesLLC.Client:build:production"
+              "browserTarget": "RosasVenturesLLC.Client:build:production"
             },
             "development": {
-              "browserTarget": "RosaVenturesLLC.Client:build:development"
+              "browserTarget": "RosasVenturesLLC.Client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "RosaVenturesLLC.Client:build"
+            "browserTarget": "RosasVenturesLLC.Client:build"
           }
         },
         "test": {

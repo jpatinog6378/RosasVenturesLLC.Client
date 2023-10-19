@@ -1,0 +1,8 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Establece una altura fija, por ejemplo, el 100% de la altura de la ventana */
+    max-height: 100vh; /* Establece un límite máximo para el tamaño */
+    overflow-y: auto; 
+  }
+  

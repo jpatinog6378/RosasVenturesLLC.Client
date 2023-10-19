@@ -1,0 +1,71 @@
+<!-- <div class="carousel-inner rounded-5 shadow-4-strong">
+    <mdb-carousel [controls]="true" [indicators]="true" [animation]="'fade'">
+      <mdb-carousel-item>
+        <img
+          src="../../../../../assets/images/slider-1.jpg"
+          class="d-block w-100 dark-image"
+          alt="..."
+        />
+        <div class="carousel-caption carousel-text ">
+            <h2>{{banner1}}</h2>
+            <h1>{{title1}}</h1>
+            <h3>{{subtitle1}}</h3>
+            <p>{{text1}}</p>
+            <p class="phone-number">{{phoneNumber}}</p>
+            <a class="btn btn-danger custom-button" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">
+                <i class="fa-solid fa-phone"></i> Contact Us
+            </a>
+        </div>
+      </mdb-carousel-item>
+  
+      <mdb-carousel-item>
+        <img
+          src="../../../../../assets/images/slider-3.jpg"
+          class="d-block w-100 dark-image"
+          alt="..."
+        />
+        <div class="carousel-caption carousel-text ">
+            <h2>{{banner2}}</h2>
+            <h1>{{title2}}</h1>
+            <h3>{{subtitle2}}</h3>
+            <p>{{text2}}</p>
+            <p class="phone-number">{{phoneNumber}}</p>
+            <a class="btn btn-danger custom-button" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">
+                <i class="fa-solid fa-phone"></i> Contact Us
+            </a>
+        </div>
+      </mdb-carousel-item>
+  
+    </mdb-carousel>
+</div> -->
+
+<header id="slider-home" class="slider slider-prlx bg-b">
+    <div class="swiper-container parallax-slider">
+      <div class="swiper-wrapper">
+        <ng-container *ngFor="let slide of slides">
+          <div class="swiper-slide" [style.width.px]="slideWidth">
+            <div class="bg-img valign " [style.backgroundImage]="'url(' + slide.image + ')'" [attr.data-swiper-parallax]="slide.parallax" [style.transitionDuration.ms]="slide.transitionDuration">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <div class="caption color-text text-center">
+                      <h2 class="color-text">{{slide.banner}}</h2>
+                      <h1 >{{ slide.title }}</h1>
+                      <h3 class="color-text">{{ slide.subtitle }}</h3>
+                      <p style="max-width: 700px; margin: 0 auto;">{{ slide.description }}</p>
+                      <h3 class="color-text">Phone: {{phoneNumber}}</h3>
+                      <div class="home-button-box home-slider-btn">
+                        <a href="#0" class="button home-btn js-scroll"> <i class="fa-solid fa-phone"></i> Contact Us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-bullets-dynamic" [style.width.px]="paginationWidth"></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    </div>
+  </header>

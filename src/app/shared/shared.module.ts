@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
@@ -22,7 +23,6 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbCheckboxModule,
     MdbCollapseModule,
     MdbDropdownModule,
-    MdbFormsModule,
     MdbModalModule,
     MdbPopoverModule,
     MdbRadioModule,
@@ -31,7 +31,9 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbScrollspyModule,
     MdbTabsModule,
     MdbTooltipModule,
-    MdbValidationModule
+    MdbValidationModule,
+    MdbFormsModule, 
+    ReactiveFormsModule
 ],
   exports: [
     MdbAccordionModule,
@@ -48,7 +50,8 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbScrollspyModule,
     MdbTabsModule,
     MdbTooltipModule,
-    MdbValidationModule
+    MdbValidationModule,
+    ReactiveFormsModule
   ],
 })
 export class SharedModule {}

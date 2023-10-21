@@ -1,0 +1,30 @@
+<section id="reservation" class="kar-theme-reservation-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                <h2 class="color-text-reservation ">FREE SERVICES</h2>
+                <h5 class="color-text-reservation ">We are committed to providing our customers with quality repairs at a fair price.</h5>
+                <a class="btn btn-danger custom-button" role="button" data-bs-toggle="modal" data-bs-target="#modalAppoiment">
+                    <i class="fa-regular fa-calendar-days icon-calendar"></i> Book Appointment
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalAppoiment" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"> Schedule an Appointment</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <app-calendly-modal-home></app-calendly-modal-home>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>

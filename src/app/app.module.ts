@@ -10,7 +10,7 @@ import { LandingPageModuleModule } from './pages/landing-page/landing-page-modul
 @NgModule({
   declarations: [
     AppComponent
-    ],
+      ],
   imports: [
     BrowserModule,
     AppRoutingModule,

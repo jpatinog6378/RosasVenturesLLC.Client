@@ -1,0 +1,83 @@
+// /**************************************
+//  * Reservation Section Style
+//  *************************************/
+
+.kar-theme-reservation-area {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../../../../../assets/images/footer-imag.jpg);
+	z-index: 1;
+	text-align: center;
+	position: relative;
+	padding: 150px 0;
+}
+
+.kar-theme-reservation-area::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: .9;
+	z-index: -1;
+}
+
+
+.kar-theme-reservation-area h2 {
+	color: #c00113;
+	font-size: 50px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: -5px;
+}
+
+.kar-theme-reservation-area h1 {
+	color: #c00113;
+	font-size: 70px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: -5px;
+}
+
+.reservation-btn {
+    background-color: #c00113;
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.reservation-btn:hover {
+	background-color: #c5092a;
+	color: #fff;
+	padding: 12px 20px;
+	border-radius: 2px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+
+
+.color-text-reservation {
+    background-image: linear-gradient(to right, #990000, #ffffff, #999999) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: transparent !important;
+}
+
+.custom-button {
+    background-color: #a30110;
+    color: #FFFFFF;
+    --mdb-btn-border-color: #a30110;
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .icon-calendar {
+    margin-right: 5px;
+  }

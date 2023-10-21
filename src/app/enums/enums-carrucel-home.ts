@@ -7,6 +7,6 @@ export enum CarrucelEnum {
     subtitle2 = 'Auto Service and Repairs',
     text1 = 'Unmatched Auto Care in Germantown, MD. Your One-Stop Shop for Quality Repairs and Maintenance',
     text2 = 'Rev Up Your Ride with Top-Notch Auto Services Germantown´s Trusted Auto Care Cente',
-    phoneNumber = '111111111',
+    phoneNumber = '+1 (240)-277-8826',
 
 }

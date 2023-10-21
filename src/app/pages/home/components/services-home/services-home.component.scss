@@ -1,0 +1,123 @@
+
+
+/**************************************
+ * Reapair Services Section Style
+ *************************************/
+.kar-theme-single-service-card {
+	margin-bottom: 10px;
+	position: relative;
+	background: #ffffff;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.kar-theme-single-service-card img{
+	max-width: 125px;
+}
+
+.kar-theme-single-service {
+	margin-bottom: 20px;
+}
+
+.repair-main-banner .video-btn {
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	display: block;
+	color: #fff;
+	background: transparent;
+	margin: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.iq-video.video-btn i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	font-size: 83px;
+	background: linear-gradient(-48deg, #ffffff -30%, #c00113 60%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.repair-main-banner .video-btn {
+	border-radius: 50%;
+	display: block;
+	-webkit-animation: ripple-white 1s linear infinite;
+	animation: ripple-white 1s linear infinite;
+	-webkit-transition: .5s;
+}
+
+@-webkit-keyframes ripple-white {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4);
+	}
+
+	100% {
+		-webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0);
+	}
+}
+
+@keyframes ripple-white {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4);
+	}
+
+	100% {
+		-webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0);
+		box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0);
+	}
+}
+
+.animation-bounce {
+	-webkit-animation: bounce 3s infinite ease-in-out;
+	-o-animation: bounce 3s infinite ease-in-out;
+	-ms-animation: bounce 3s infinite ease-in-out;
+	-moz-animation: bounce 3s infinite ease-in-out;
+	animation: bounce 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+	0% {
+		transform: translateY(-5px);
+	}
+
+	50% {
+		transform: translateY(15px);
+	}
+
+	100% {
+		transform: translateY(-5px);
+	}
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(-5px);
+	}
+
+	50% {
+		transform: translateY(15px);
+	}
+
+	100% {
+		transform: translateY(-5px);
+	}
+}
+
+.bg-grey {
+	background: #f5f5f5;
+}

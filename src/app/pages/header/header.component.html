@@ -1,10 +1,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top prueba">
   <div class="container">
-    <a class="navbar-brand me-2" href="index.html">
-      <img src="assets/images/logo.png" class="white-logo" alt="logo">
-      <img src="assets/images/logo-black.png" class ="black-logo" alt="logo">
-    </a>
+      <img src="../../../assets/images/logo-1.png" class="white-logo logo" alt="logo">
 
     <button
       class="navbar-toggler"
@@ -35,7 +32,7 @@
           <li *ngFor="let item of menuItems" class="nav-item">
             <a class="nav-link js-scroll" [class.active]="item.active" [attr.href]="'#' + item.target">{{ item.label }}</a>
           </li>
-          <a class="btn btn-danger custom-button" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button">
+          <a class="btn btn-danger custom-button" role="button" data-bs-toggle="modal" data-bs-target="#modalAppoiment">
             <i class="fa-regular fa-calendar-days icon-calendar"></i> Book Appointment
           </a>
         </ul>
@@ -44,3 +41,20 @@
     </div>
   </div>
 </nav>
+
+<div class="modal fade" id="modalAppoiment" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Appoiment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-calendly-modal-home></app-calendly-modal-home>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

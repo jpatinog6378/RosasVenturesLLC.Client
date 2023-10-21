@@ -1,9 +1,7 @@
 // header.component.ts
 import { Component, OnInit, Renderer2, ElementRef, AfterViewInit } from '@angular/core';
 import { MenuItem } from 'src/app/models/header.models';
-
-
-
+import { MdbModalRef } from 'mdb-angular-ui-kit/modal';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -21,7 +19,8 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     { label: 'Contact', target: 'contact', active: false }
   ];
 
-  constructor(private renderer: Renderer2, private el: ElementRef) { }
+  constructor(private renderer: Renderer2, 
+    private el: ElementRef) { }
 
   ngOnInit(): void {
   }

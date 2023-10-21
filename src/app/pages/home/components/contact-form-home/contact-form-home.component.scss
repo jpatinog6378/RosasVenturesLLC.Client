@@ -1,0 +1,39 @@
+.bg-grey {
+    background: #f5f5f5;
+}
+
+.contact-area {
+    position: relative;
+    z-index: 1;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.form-controls-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas con el mismo ancho */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Ajusta el espaciado en los controles individuales si es necesario */
+mdb-form-control {
+    margin-bottom: 20px;
+}
+
+
+.custom-button {
+    background-color: #a30110;
+    color: #FFFFFF;
+    --mdb-btn-border-color: #a30110;
+    text-align: center;
+  }
+  
+.text-danger {
+    margin-top: -15px;
+}

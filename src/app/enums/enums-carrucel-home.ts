@@ -1,6 +1,6 @@
 export enum CarrucelEnum {
-    banner1 = 'Best car detailing services',
-    banner2 = 'Best car maintenance services',
+    banner1 = 'We are the best mobile mechanics car detailing services',
+    banner2 = 'We are the best mobile mechanics car maintenance services',
     title1 = ' Maintenance and Repair',
     title2 = 'Service and Repair',
     subtitle1 = 'Vehicle Maintenance and Repairs',

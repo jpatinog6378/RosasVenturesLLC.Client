@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "y",
+    "public": "dist/rosas-ventures-llc.client",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -1,4 +1,14 @@
-
+.white-logo {
+    max-width: 300px;
+    height: auto;
+    margin-top: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .white-logo {
+      margin-top: 250px; 
+    }
+  }
 
 /**************************************
  * Home Section Style

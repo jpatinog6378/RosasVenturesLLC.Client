@@ -11,12 +11,12 @@ export class HeaderComponent implements OnInit, AfterViewInit {
 
   menuItems: MenuItem[] = [
     { label: 'Home', target: 'slider-home', active: true },
-    { label: 'Services', target: 'services', active: false },
-    { label: 'Products', target: 'products', active: false },
-    { label: 'Packages', target: 'packages', active: false },
-    { label: 'Review', target: 'review', active: false },
+    // { label: 'Services', target: 'services', active: false },
+    // { label: 'Products', target: 'products', active: false },
+    // { label: 'Packages', target: 'packages', active: false },
+    // { label: 'Review', target: 'review', active: false },
     // { label: 'Book Appointment', target: 'reservation', active: false },
-    { label: 'Contact', target: 'contact', active: false }
+    // { label: 'Contact', target: 'contact', active: false }
   ];
 
   constructor(private renderer: Renderer2, 

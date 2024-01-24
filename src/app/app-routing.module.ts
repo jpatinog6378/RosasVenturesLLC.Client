@@ -5,10 +5,10 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   {
-    path : '', redirectTo: '/landing', pathMatch: 'full'
+    path : '', redirectTo: '/mobile-mechanic', pathMatch: 'full'
   },
   {
-    path : 'landing', component : LandingPageComponent, children : [
+    path : 'mobile-mechanic', component : LandingPageComponent, children : [
       {path: '', component : HomeComponent},
     ]
   }
